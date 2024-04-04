@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Integral CF';
+    src: url('fonts/IntegralCF-Regular.otf') format('opentype');
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Open Sans');
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat.otf') format('opentype');
+  }
+  
+  body {
+    font-family: 'Integral CF', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  
+  .nav-header {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .nav-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-right ul li {
+    display: inline;
+  }
+  
+  .nav-right ul li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .nav-right ul li a:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+
+  .profile-content {
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between; /* Mengatur jarak antar kolom */
+  }
+  
+  .col1 {
+    background-color: #0e0e0e;
+    width: 15%;
+    height: 600px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px; 
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .profile-box {
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+    background-color: #ffffff;
+    background-image: url(profile.jpg);
+  }
+
+  name {
+    color: #fff;
+    text-align: center;
+    font-weight: medium;
+  }
+
+  .vertical-navbar {
+    margin: 5px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .vertical-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  .vertical-navbar ul li {
+    display: inline;
+  }
+
+  .vertical-navbar ul li a {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2px 10px;
+  }
+
+  .vertical-navbar ul li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .col2 {
+    background-color: #ffffff;
+    width: 85%;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .akun {
+    text-align: center;
+  }
+
+  .pengaturan {
+    text-align: center;
+  }
+
+  h2 {
+    color: black;
+  }
+
+  p {
+    color: black;
+  }
+
+  .logout-box {
+    text-align: right;
+    margin: 10px auto;
+  }
+  
+  #logout-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #logout-btn:hover {
+    background-color: #c82333;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+  }
+  

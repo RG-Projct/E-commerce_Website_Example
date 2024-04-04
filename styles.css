@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'Integral CF';
+    src: url('fonts/IntegralCF-Regular.otf') format('opentype');
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Open Sans');
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat.otf') format('opentype');
+  }
+  
+  body {
+    font-family: 'Integral CF', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  
+  .nav-header {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .nav-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-right ul li {
+    display: inline;
+  }
+  
+  .nav-right ul li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .nav-right ul li a:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .header-content {
+    text-align: center;
+    font-size: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: 100px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 10px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .box2-left {
+    width: 75%;
+    background-color: #e0e0e0;
+    padding: 70px;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .box2-right {
+    width: 25%;
+    background-color: #e0e0e0;
+    padding: 70px;
+    background-image: url('background2.jpg');
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .row-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .content {
+    background-color: #ffffff;
+  }
+
+  .column {
+    width: 25%;
+    background-image: url('background2.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-content {
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+    margin-left: 10px;
+  }
+
+  h2 {
+    color: black;
+    text-align: left;
+    font-size: 25px;
+  }
+
+  p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(46, 46, 46);
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .spacer {
+    margin: 10px;
+  }
+  
+  .header-below {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  
+  .nav-categories {
+    background-color: white; /* Mengubah warna latar belakang menjadi putih */
+    display: flex;
+    align-items: center; /* Center align vertically */
+    justify-content: center; /* Center horizontally */
+    padding: 10px 0; /* Adjust padding for better appearance */
+    margin: 10px auto;
+    max-width: 1260px;
+  }
+  
+  .nav-categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-categories ul li {
+    margin-right: 50px;
+  }
+  
+  .nav-categories ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+  }
+  
+  .nav-categories ul li a:hover {
+    color: white; /* Mengubah warna teks menjadi putih saat dihover */
+    background-color: #000000; /* Mengubah warna latar belakang saat dihover */
+  }
+
+  .grid {
+    max-width: 1300px;
+    margin: 10px auto;
+  }
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap; /* Jika layar lebih kecil, gambar akan pindah ke baris baru */
+    justify-content: center;
+  }
+  
+  .product-box {
+    flex-basis: 300px; /* Lebar gambar */
+    height: 430px;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Jarak bawah antara gambar */
+    margin-right: 10px; /* Jarak kanan antara gambar */
+    margin-left: 10px; /* Jarak kiri antara gambar */
+    background-color: #e0e0e0;
+  }
+  
+  .nav-view {
+    display: flex;
+    justify-content: right;
+    padding: 10px 0; /* Adjust padding for better appearance */
+    margin: 0px auto;
+    max-width: 1260px;
+  }
+  
+  .nav-view ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-view ul li {
+    margin-right: 20px;
+  }
+  
+  .nav-view ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+  }
+  
+  .nav-view ul li a:hover {
+    color: white; /* Mengubah warna teks menjadi putih saat dihover */
+    background-color: #000000; /* Mengubah warna latar belakang saat dihover */
+  }
+  
+  footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .promo-box {
+    background-color: #ffd700;
+    color: #000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .promo-text {
+    margin: 5px;
+  }
+  
+  .hide-promo-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
